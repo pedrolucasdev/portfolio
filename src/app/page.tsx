@@ -1,5 +1,5 @@
 import Image from "next/image";
-import avatar from "./assets/avatar.jpg";
+import hero from "./assets/hero.jpg";
 import email from "./assets/email.svg";
 import linkedin from "./assets/linkedin.svg";
 import github from "./assets/github.svg";
@@ -10,8 +10,8 @@ export default function Home() {
       <div className="flex flex-col w-10/12  lg:w-9/12">
         <div className="flex items-center flex-col md:flex-row">
           <Image
-            src={avatar}
-            alt="avatar"
+            src={hero}
+            alt="hero"
             className="flex rounded-xl"
             width={72}
             height={72}
