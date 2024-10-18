@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hero from "./assets/hero.jpg";
+import hero from "./assets/hero.png";
 import email from "./assets/email.svg";
 import linkedin from "./assets/linkedin.svg";
 import github from "./assets/github.svg";
