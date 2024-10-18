@@ -1,5 +1,4 @@
 import Image from "next/image";
-import hero from "./hero.jpg";
 import email from "./email.svg";
 import linkedin from "./linkedin.svg";
 import github from "./github.svg";
@@ -10,11 +9,12 @@ export default function Home() {
       <div className="flex flex-col w-10/12  lg:w-9/12">
         <div className="flex items-center flex-col md:flex-row">
           <Image
-            src={hero}
+            src="/hero.jpg"
             alt="hero"
             className="flex rounded-xl"
             width={72}
             height={72}
+            quality={100}
           />
           <div className="flex ml-4 flex-col mt-12 md:mt-0">
             <h2 className="text-center ">Hey there, I am Pedro Lucas</h2>
@@ -45,25 +45,25 @@ export default function Home() {
         <div className="flex mt-16 flex-col">
           <h2>Experience</h2>
           <div className="flex mt-8 flex-col md:flex-row">
-            <span className="text-gray500">2021 — now</span>
+            <span className="text-gray500 min-w-[110px]">2021 — now</span>
             <span className="md:ml-6 text-justify">
               Senior Frontend Engineer at Maersk
             </span>
           </div>
           <div className="flex mt-8 flex-col md:flex-row">
-            <span className="text-gray500">2021 — 2021</span>
+            <span className="text-gray500 min-w-[110px]">2021 — 2021</span>
             <span className="md:ml-6 text-justify">
               Senior Frontend Engineer at HUUB (Acquired by Maersk)
             </span>
           </div>
           <div className="flex mt-8 flex-col md:flex-row">
-            <span className="text-gray500">2018 — 2021</span>
+            <span className="text-gray500 min-w-[110px]">2018 — 2021</span>
             <span className="md:ml-6 text-justify">
               Frontend Engineer at Armis Group
             </span>
           </div>
           <div className="flex mt-8 flex-col md:flex-row">
-            <span className="text-gray500">2018 — 2018</span>
+            <span className="text-gray500 min-w-[110px]">2018 — 2018</span>
             <span className="md:ml-6 text-justify">
               Frontend Engineer at Bliss Applications
             </span>
@@ -72,14 +72,14 @@ export default function Home() {
         <div className="flex mt-16 flex-col">
           <h2>Education</h2>
           <div className="flex mt-8 flex-col md:flex-row">
-            <span className="text-gray500">2018 — 2021</span>
+            <span className="text-gray500 min-w-[110px]">2018 — 2021</span>
             <span className="md:ml-6 text-justify">
               Master in Software Engineering from Instituto Superior de
               Engenharia do Porto
             </span>
           </div>
           <div className="flex mt-8 flex-col md:flex-row">
-            <span className="text-gray500">2015 — 2018</span>
+            <span className="text-gray500 min-w-[110px]">2015 — 2018</span>
             <span className="md:ml-6 text-justify">
               Degree in Informatics Engineering from Instituto Superior de
               Engenharia do Porto
