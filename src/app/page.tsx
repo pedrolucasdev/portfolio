@@ -1,8 +1,8 @@
 import Image from "next/image";
-import hero from "./assets/hero.png";
-import email from "./assets/email.svg";
-import linkedin from "./assets/linkedin.svg";
-import github from "./assets/github.svg";
+import hero from "./hero.jpg";
+import email from "./email.svg";
+import linkedin from "./linkedin.svg";
+import github from "./github.svg";
 
 export default function Home() {
   return (
