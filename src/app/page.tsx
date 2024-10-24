@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <div className="flex mt-16 flex-col">
-          <h2>Work</h2>
+          <h2>Portfolio</h2>
           <div className="flex flex-row mt-8">
             <a
               className="flex w-[380px] h-[300px] rounded-lg p-4 flex-col items-start"
