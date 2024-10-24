@@ -17,7 +17,7 @@ export default function Home() {
             quality={100}
           />
           <div className="flex ml-4 flex-col mt-12 md:mt-0">
-            <h2 className="text-center ">Hey there, I am Pedro Lucas</h2>
+            <h2>Pedro Lucas</h2>
             <span className="mt-4 md:mt-0">
               Senior Frontend Engineer at Maersk
             </span>
@@ -40,6 +40,33 @@ export default function Home() {
             where I led a few UI engineers to help them grow and exceed their
             goals.
           </p>
+        </div>
+
+        <div className="flex mt-16 flex-col">
+          <h2>Work</h2>
+          <div className="flex flex-row mt-8">
+            <a
+              className="flex w-[380px] h-[300px] rounded-lg p-4 flex-col items-start"
+              href="https://positivus.pedro-lucas.pt/"
+              target="_blank"
+            >
+              <div className="flex relative w-full h-[220px]">
+                <Image
+                  src="/positivus.png"
+                  alt="positivus"
+                  quality={100}
+                  width={363.26}
+                  height={205}
+                />
+              </div>
+              <div className="flex mt-4 h-[48px] items-center w-full">
+                <span>Positivus</span>
+                <span className="bg-gray600 text-gray800 ml-3 pl-2 pr-2 rounded-md text-[12px]">
+                  MOCK
+                </span>
+              </div>
+            </a>
+          </div>
         </div>
 
         <div className="flex mt-16 flex-col">
