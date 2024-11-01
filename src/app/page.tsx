@@ -44,9 +44,9 @@ export default function Home() {
 
         <div className="flex mt-16 flex-col">
           <h2>Portfolio</h2>
-          <div className="flex flex-row mt-8">
+          <div className="flex flex-col md:flex-row mt-8">
             <a
-              className="flex w-[380px] h-[300px] rounded-lg p-4 flex-col items-start"
+              className="flex w-full md:w-[380px] h-[300px] rounded-lg p-4 flex-col items-start"
               href="https://positivus.pedro-lucas.pt/"
               target="_blank"
             >
@@ -59,11 +59,39 @@ export default function Home() {
                   height={205}
                 />
               </div>
-              <div className="flex mt-4 h-[48px] items-center w-full">
-                <span>Positivus</span>
-                <span className="bg-gray600 text-gray800 ml-3 pl-2 pr-2 rounded-md text-[12px]">
-                  MOCK
-                </span>
+              <div className="flex flex-col mt-2">
+                <div className="flex h-[48px] items-center w-full">
+                  <span>Positivus</span>
+                  <span className="bg-gray600 text-gray800 ml-3 pl-2 pr-2 rounded-md text-[12px]">
+                    MOCK
+                  </span>
+                </div>
+                <div className="flex text-sm text-gray-200">
+                  A landing page for a digital marketing agency
+                </div>
+              </div>
+            </a>
+            <a
+              className="flex w-full md:w-[380px] h-[300px] rounded-lg p-4 flex-col items-start ml-0 md:ml-8 mt-8 md:mt-0"
+              href="https://playground.pedro-lucas.pt/"
+              target="_blank"
+            >
+              <div className="flex relative w-full h-[220px]">
+                <Image
+                  src="/lab.png"
+                  alt="playground"
+                  quality={100}
+                  width={363.26}
+                  height={205}
+                />
+              </div>
+              <div className="flex flex-col mt-2">
+                <div className="flex h-[48px] items-center w-full">
+                  <span>Playground</span>
+                </div>
+                <div className="flex text-sm text-gray-200">
+                  A space for cool animations
+                </div>
               </div>
             </a>
           </div>
